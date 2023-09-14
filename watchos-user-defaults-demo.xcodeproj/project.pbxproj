@@ -15,6 +15,7 @@
 		CF03FB742AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB732AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppTests.swift */; };
 		CF03FB7E2AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB7D2AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppUITests.swift */; };
 		CF03FB802AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB7F2AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppUITestsLaunchTests.swift */; };
+		CF3EBDBF2AB2CA7E00445E62 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDBE2AB2CA7E00445E62 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		CF03FB792AB1AC9700F7D9F8 /* watchos-user-defaults-demo Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-user-defaults-demo Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF03FB7D2AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_user_defaults_demo_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		CF03FB7F2AB1AC9700F7D9F8 /* watchos_user_defaults_demo_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_user_defaults_demo_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF3EBDBE2AB2CA7E00445E62 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				CF03FB622AB1AC9500F7D9F8 /* watchos_user_defaults_demoApp.swift */,
 				CF03FB642AB1AC9500F7D9F8 /* ContentView.swift */,
+				CF3EBDBE2AB2CA7E00445E62 /* UserDefaultsManager.swift */,
 				CF03FB662AB1AC9700F7D9F8 /* Assets.xcassets */,
 				CF03FB682AB1AC9700F7D9F8 /* Preview Content */,
 			);
@@ -311,6 +314,7 @@
 			files = (
 				CF03FB652AB1AC9500F7D9F8 /* ContentView.swift in Sources */,
 				CF03FB632AB1AC9500F7D9F8 /* watchos_user_defaults_demoApp.swift in Sources */,
+				CF3EBDBF2AB2CA7E00445E62 /* UserDefaultsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
